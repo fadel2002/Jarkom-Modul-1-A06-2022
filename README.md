@@ -146,3 +146,4 @@ Temukan password rahasia (flag) dari organisasi bawah tanah yang disebutkan di a
 
 ### Jawaban
 Dari soal no.9, didapatkan flag.txt dengan isi `jawaban`.
+![dokumentasi 10](image/Nomor%2010/1.png)
