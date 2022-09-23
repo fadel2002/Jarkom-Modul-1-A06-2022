@@ -5,6 +5,26 @@
 2. Mohammad Fany Faizul Akbar - 5025201225
 3. Fadel Pramaputra Maulana - 5025201260
 
+## Nomor 1
+
+### Soal
+
+Sebutkan web server yang digunakan pada "monta.if.its.ac.id"!
+
+### Cara Pengerjaan
+
+1. Menghubungkan wireshark dengan http://monta.if.its.ac.id/
+
+![dokumentasi 1-1](image/Nomor%201/jawaban%201-1.png)
+
+2. Melakukan filter display "http"
+
+![dokumentasi 1-2](image/Nomor%201/jawaban%201-2.png)
+
+3. Memilih paket yang terdapat "(text/html)" dan melihat info drop down Hypertext Transfer Protocol terlihat server yang digunakan adalah nginx/1.10.3
+
+![dokumentasi 1-3](image/Nomor%201/jawaban%201-3.png)
+
 ## Nomor 2
 ### Soal
 Ishaq sedang bingung mencari topik ta untuk semester ini , lalu ia datang ke website
@@ -33,6 +53,18 @@ Filter sehingga wireshark hanya menampilkan paket yang menuju port 80!
 
 ![dokumentasi 3](image/Nomor%203/1.png)
 
+## Nomor 4
+
+### Soal
+
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 21!
+
+### Cara Pengerjaan
+
+1. Melakukan filter "tcp.srcport == 21 || udp.srcport == 21"
+
+![dokumentasi 1-1](image/Nomor%204/jawaban%204-1.png)
+
 ## Nomor 5
 ### Soal
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
@@ -41,6 +73,22 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 443!
 1. Menjalankan command `tcp.srcport == 443` pada display filter.
 
 ![dokumentasi 5](image/Nomor%205/1.png)
+
+## Nomor 6
+
+### Soal
+
+Filter sehingga wireshark hanya menampilkan paket yang menuju ke lipi.go.id!
+
+### Cara Pengerjaan
+
+1. Melakukan ping ke lipi.go.id dan didapatkan ip address dari lipi.go.id yaitu "203.160.128.158"
+
+![dokumentasi 1-1](image/Nomor%206/jawaban%206-1.png)
+
+2. Lakukan display filter menggunakan "ip.dst == 203.160.128.158"
+
+![dokumentasi 1-2](image/Nomor%206/jawaban%206-2.png)
 
 ## Nomor 7
 ### Soal
